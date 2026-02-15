@@ -1,0 +1,13 @@
+:root { color-scheme: dark; --bg:#0b0f19; --panel:#121a2b; --muted:#94a3b8; --text:#e5e7eb; --line:rgba(148,163,184,.25); }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial}
+.container{max-width:980px;margin:0 auto;padding:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}
+.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.field{display:flex;flex-direction:column;gap:6px;min-width:200px}
+.field label{font-size:12px;color:var(--muted)}
+.field input{padding:10px 12px;border:1px solid var(--line);background:rgba(2,6,23,.25);color:var(--text);border-radius:12px}
+.btn{padding:10px 12px;border:1px solid var(--line);background:rgba(148,163,184,.12);border-radius:12px;color:var(--text)}
+hr{border:0;border-top:1px solid var(--line);margin:12px 0}
+.small{font-size:12px;color:var(--muted)}
+.badge{padding:4px 8px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:12px}
